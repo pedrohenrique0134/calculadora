@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         val multiplicar = binding.multiplicar
         val dividir = binding.dividir
 
+        var numero = 2
+
         somar.setOnClickListener {
         if ( verificar(binding.valor1, binding.valor2)){
            toast("digite um numero")
